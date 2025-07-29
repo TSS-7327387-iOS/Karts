@@ -1,0 +1,2256 @@
+fileFormatVersion: 2
+guid: 4aee4611f09fd0e44a12e0f7428575b4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 52
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1973
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b4067c1294314caa1e12240baf0e8
+      internalID: -2134650837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_10
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1860
+        width: 184
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5134c98fab0c5e6459c28c60186b1a38
+      internalID: 297443443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1929
+        width: 254
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe43923248de9e348899f06f4c274aaf
+      internalID: 312967187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1899
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68839c741ba687b44b1311f02b53fa95
+      internalID: -1817808983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1952
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ef73a6f3236447aee729568fdf203
+      internalID: 678390725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_21
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1894
+        width: 112
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5b676634dae2c49bdba2d3a8145924
+      internalID: 1829897281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_24
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1932
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140848af0d306c24d9c4cb4176c981b6
+      internalID: -450767245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_25
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1900
+        width: 450
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86690bd7b69e4b24fb2c239aae4e65eb
+      internalID: -1101088142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_29
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1899
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ae0b8b4ce382459baeb2e3c097184
+      internalID: 2094117917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_32
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1927
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d2eea9015b67a4588c5ad6e837fadd
+      internalID: -321856482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1860
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcd12bf83a57244ba5d95a343dea602
+      internalID: -1299354091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_40
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1858
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56798dabe54569941a08d7677fa53aaf
+      internalID: 59442525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_65
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1806
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7db969614ce0f4da4b72ebcdbc6ef2
+      internalID: 990600557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1797
+        width: 255
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f1e8c6f9df8c94290713c9753f6087
+      internalID: -1772626656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_74
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1775
+        width: 109
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaa671370dd6c84ea40c9d5da8cdc42
+      internalID: 2023434485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_83
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1771
+        width: 704
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314308607b89f514ab722b1d7d9d45e9
+      internalID: 1921936357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_85
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1746
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae06194139f0b94d8c22813f6512ab9
+      internalID: 1325394769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_88
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1752
+        width: 187
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058214e2863e5284aab6bc99a252cf4d
+      internalID: 1832173344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1770
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1898a314c7a80c74db957069448935cb
+      internalID: -248212028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_113
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1727
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79438e7f37b4ed3418ade99a32e721b7
+      internalID: 1726859014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_117
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1701
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76db4a736985c5449ec23f25909113a
+      internalID: -1266175392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_127
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1701
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e46165db1eedd4f97e62d7230bc2a1
+      internalID: 1050239929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_139
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1668
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21079f52be2624cbb08c612845c3e9
+      internalID: -2090502612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_142
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1636
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba383b680aed854589ca59e3132567f
+      internalID: -2047075606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_143
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1631
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f47e013b2884144a7fd3d49deb253d
+      internalID: 1689827180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_148
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1675
+        width: 102
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129cda05dc1049d45b31b286e3fb764a
+      internalID: 1201188463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_149
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1625
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5530f4d70de73447862f271c69feeb7
+      internalID: -2092339996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_167
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1594
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a3e4b1b3a5ec1428109aa739ec37d6
+      internalID: 1133098689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_169
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1579
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07166ad5d70294d46bb83a03f214a971
+      internalID: 1293461116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_170
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1576
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4888dc8c60121974681bd2e34321f6d5
+      internalID: 113069864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_176
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1554
+        width: 238
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a480aca627b22fc4e99a4b8f2f968944
+      internalID: 641849188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_179
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1536
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214e9157e33dc61429810df129c27378
+      internalID: -492335668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_180
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1511
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0262a6b962dc3d84aa8f560ef45500a7
+      internalID: 1707998555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_181
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1509
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4703e830fe4ed1d4fb9e7ca07e3960e4
+      internalID: -1549696489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_182
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1511
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb70c354d64554ab52ddd4364280d3
+      internalID: -977243227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_183
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1506
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38256c15adf2ae04f840ddab2011571f
+      internalID: 1717059804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_186
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1576
+        width: 146
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06afa0aa59631234685fed14b2fbed40
+      internalID: -1087016928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_187
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1571
+        width: 204
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2a18231b51faf4bb69239253ddcf62
+      internalID: 1486135385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_189
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1468
+        width: 248
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da8a2ae7bd31ac418e673671f781aef
+      internalID: -1056387400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_191
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1295
+        width: 366
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a154e9ac80894c044becd535bcb9408f
+      internalID: 24957733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_192
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1410
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d079e5aaaa7e88a4480d9150bcd098fa
+      internalID: -254968308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_193
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1415
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4010412c829285244b50c8b48d1b89e7
+      internalID: -1801013472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_194
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1406
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bd9dd33b6311040a3b07cb2011c6a1
+      internalID: 736194964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_195
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1421
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8f5aaaf00072644941ce778d041033
+      internalID: -836666142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_196
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1390
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26f85a580bd2e4f9fe664f8ce55849
+      internalID: 847995311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_197
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1387
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a39df949e9bcf4581e269bc706f965
+      internalID: 312381390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_198
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1392
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c98584bd89984d91f10a42e4bd509
+      internalID: 441256624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_200
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1386
+        width: 97
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7efb64893a12014980a4992dc922dfe
+      internalID: 1707513558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_206
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1317
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6d3d50ce674440a3d3729245393fb
+      internalID: -1134171520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_211
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1234
+        width: 579
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95b2c6e477b92142aa322ff81ed86f5
+      internalID: -370134448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_212
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1315
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd07163621bb58347875e8835470ee61
+      internalID: 1614377677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_214
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1324
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d108f78c1688b43b87830aca9623fe
+      internalID: -736389291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_217
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1306
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d65dfea60cbc884c8f0da6e801620c9
+      internalID: 1154507626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_218
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1306
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4292ba4ef7cab2a4690faf96a4af13d1
+      internalID: -946726481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_219
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1306
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df264af20574bd84b9aa4e1b9d890354
+      internalID: 1282926159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_220
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1306
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce2de8b3a5698640af2d3cc5d1e2d4a
+      internalID: 1468362004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_221
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1306
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdc363572fe51e43b413af9b45b8605
+      internalID: -554060637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_224
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1304
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1c5cdda756951459b13414b3af6323
+      internalID: 1067125538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_228
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1307
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e770315c6f53047a10e2dd75e059de
+      internalID: 1198561874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_240
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1234
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b871b3583389f5489249bd920eeba98
+      internalID: -1596625347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_241
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1236
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1dfed873e8f04a988376adb0625be
+      internalID: 1160797883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_242
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1201
+        width: 387
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a60864862743745ba332457f8f599f
+      internalID: -221527238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_243
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1216
+        width: 387
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb63c34f18ea3a45a0f8c3b460c927e
+      internalID: 1885901678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_244
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1233
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7707deb67e7845bddb2b200df18f3
+      internalID: -1278244182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_245
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1233
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b1d5c9ffa674f41be31bc367ce61bc
+      internalID: 1425912561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_246
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1233
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63454d13de8797645872744c39f47988
+      internalID: 434425369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_247
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1233
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3586a43e7495ee048bc0dbd3818eadcc
+      internalID: 1217782768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_248
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1233
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71046206e7d4324b8c665c096d511cb
+      internalID: -286800463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_249
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1233
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcacaead5314a841b36b7f596857b8a
+      internalID: -28561543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_253
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1093
+        width: 248
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1806429cdd584449a1e8a3af8bd189
+      internalID: 666993754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_254
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1098
+        width: 663
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d881de2b04025847b63326677699d2b
+      internalID: 590512575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_255
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1074
+        width: 528
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e8ad2e6b6f56747b33de9ad59dab7e
+      internalID: -1871241670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_256
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1000
+        width: 125
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad9231d5d0c044cbf03361ca00bbe8
+      internalID: 291025035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_258
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1026
+        width: 262
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8794293a86e011749b5e0c9853f5128e
+      internalID: -247898176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_269
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 994
+        width: 163
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaa12baab21206438b4aa85534a0981
+      internalID: -1059528502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_277
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 26
+        width: 749
+        height: 1003
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -374.5, y: -498}
+        - {x: -374.5, y: 353.42822}
+        - {x: -324.9508, y: 450.51538}
+        - {x: -231.21936, y: 498}
+        - {x: 374.5, y: 498}
+        - {x: 374.5, y: -498}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43335f7bc6ff2144ba0664dbd3d4f2f
+      internalID: -971934995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_285
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 876
+        width: 353
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c82e0ba79ffeb4484968265042817e
+      internalID: -501937463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_288
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 561
+        width: 276
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c9a9874c70d5f40af693ca23ce9896
+      internalID: 1635485845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_289
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 480
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8792fde3983ef34685b21afc6984812
+      internalID: 2027353047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_290
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 280
+        width: 456
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ea62bf330f9764ca138363aab10096
+      internalID: -986539547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_291
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 40
+        width: 294
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a394b65ce11e49847ba457c6a50408f4
+      internalID: -1444493803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_124
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1667
+        width: 192
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a92b4983994450419602b14f1594ba1
+      internalID: 1860937882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_125
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1648
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a052c64ebc8bb1344a6a7a5e6dc20dc8
+      internalID: 1866579723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_133
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1664
+        width: 198
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: -40}
+        - {x: -99, y: 19}
+        - {x: -84, y: 36}
+        - {x: -75.623535, y: 38}
+        - {x: -69, y: 37}
+        - {x: -62, y: 33}
+        - {x: -55, y: 27}
+        - {x: -45, y: 14}
+        - {x: -39, y: 8}
+        - {x: -35.84778, y: 8.0686035}
+        - {x: -34, y: 10}
+        - {x: -30.488281, y: 8.184937}
+        - {x: 99, y: 11}
+        - {x: 99, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bd2fc5d7b01048b3f8109e3e720c9
+      internalID: -977398468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted 01_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 754
+        height: 1003
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -377, y: -501.5}
+        - {x: -377, y: 501.5}
+        - {x: 223.32336, y: 500.51807}
+        - {x: 312.38617, y: 424.65973}
+        - {x: 376.76324, y: 354.8587}
+        - {x: 377, y: -501.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aa84aaaab8c794f8c4e9e1f44d3cf1
+      internalID: -700392279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SB UI Pngs Size adjusted 01_0: -700392279
+      SB UI Pngs Size adjusted 01_1: 1339806903
+      SB UI Pngs Size adjusted 01_10: 297443443
+      SB UI Pngs Size adjusted 01_100: -659990139
+      SB UI Pngs Size adjusted 01_101: 1388600288
+      SB UI Pngs Size adjusted 01_102: 1236021102
+      SB UI Pngs Size adjusted 01_103: 1020531446
+      SB UI Pngs Size adjusted 01_104: -421442256
+      SB UI Pngs Size adjusted 01_105: -248212028
+      SB UI Pngs Size adjusted 01_106: -575576168
+      SB UI Pngs Size adjusted 01_107: 1558662286
+      SB UI Pngs Size adjusted 01_108: 152519611
+      SB UI Pngs Size adjusted 01_109: 1447989037
+      SB UI Pngs Size adjusted 01_11: -630108463
+      SB UI Pngs Size adjusted 01_110: -1748546698
+      SB UI Pngs Size adjusted 01_111: -369328689
+      SB UI Pngs Size adjusted 01_112: 24446166
+      SB UI Pngs Size adjusted 01_113: 1726859014
+      SB UI Pngs Size adjusted 01_114: 1152195901
+      SB UI Pngs Size adjusted 01_115: 8769299
+      SB UI Pngs Size adjusted 01_116: -782718398
+      SB UI Pngs Size adjusted 01_117: -1266175392
+      SB UI Pngs Size adjusted 01_118: 1808428895
+      SB UI Pngs Size adjusted 01_119: 765330371
+      SB UI Pngs Size adjusted 01_12: -138964710
+      SB UI Pngs Size adjusted 01_120: -730373866
+      SB UI Pngs Size adjusted 01_121: -1303969405
+      SB UI Pngs Size adjusted 01_122: 653019892
+      SB UI Pngs Size adjusted 01_123: 147671796
+      SB UI Pngs Size adjusted 01_124: 1860937882
+      SB UI Pngs Size adjusted 01_125: 1866579723
+      SB UI Pngs Size adjusted 01_126: 971310713
+      SB UI Pngs Size adjusted 01_127: 1050239929
+      SB UI Pngs Size adjusted 01_128: -263383704
+      SB UI Pngs Size adjusted 01_129: 1706679492
+      SB UI Pngs Size adjusted 01_13: 1787812259
+      SB UI Pngs Size adjusted 01_130: -280120364
+      SB UI Pngs Size adjusted 01_131: 226387436
+      SB UI Pngs Size adjusted 01_132: -1114662300
+      SB UI Pngs Size adjusted 01_133: -977398468
+      SB UI Pngs Size adjusted 01_134: 1312207781
+      SB UI Pngs Size adjusted 01_135: 1683706157
+      SB UI Pngs Size adjusted 01_136: 248165665
+      SB UI Pngs Size adjusted 01_137: 1380494495
+      SB UI Pngs Size adjusted 01_138: -1979144071
+      SB UI Pngs Size adjusted 01_139: -2090502612
+      SB UI Pngs Size adjusted 01_14: 312967187
+      SB UI Pngs Size adjusted 01_140: -897252695
+      SB UI Pngs Size adjusted 01_141: 650275531
+      SB UI Pngs Size adjusted 01_142: -2047075606
+      SB UI Pngs Size adjusted 01_143: 1689827180
+      SB UI Pngs Size adjusted 01_144: 1027804375
+      SB UI Pngs Size adjusted 01_145: -1521162107
+      SB UI Pngs Size adjusted 01_146: 454070378
+      SB UI Pngs Size adjusted 01_147: -997334573
+      SB UI Pngs Size adjusted 01_148: 1201188463
+      SB UI Pngs Size adjusted 01_149: -2092339996
+      SB UI Pngs Size adjusted 01_15: 676402065
+      SB UI Pngs Size adjusted 01_150: 1326274444
+      SB UI Pngs Size adjusted 01_151: 653500797
+      SB UI Pngs Size adjusted 01_152: -2056783623
+      SB UI Pngs Size adjusted 01_153: -1494478311
+      SB UI Pngs Size adjusted 01_154: -380246732
+      SB UI Pngs Size adjusted 01_155: -617820888
+      SB UI Pngs Size adjusted 01_156: 589317646
+      SB UI Pngs Size adjusted 01_157: 1216258899
+      SB UI Pngs Size adjusted 01_158: -1952922538
+      SB UI Pngs Size adjusted 01_159: -539845275
+      SB UI Pngs Size adjusted 01_16: -1817808983
+      SB UI Pngs Size adjusted 01_160: 743196643
+      SB UI Pngs Size adjusted 01_161: 2119473526
+      SB UI Pngs Size adjusted 01_162: -1005970684
+      SB UI Pngs Size adjusted 01_163: -1231191746
+      SB UI Pngs Size adjusted 01_164: 1648894907
+      SB UI Pngs Size adjusted 01_165: 13843137
+      SB UI Pngs Size adjusted 01_166: -33813193
+      SB UI Pngs Size adjusted 01_167: 1133098689
+      SB UI Pngs Size adjusted 01_168: 1713474388
+      SB UI Pngs Size adjusted 01_169: 1293461116
+      SB UI Pngs Size adjusted 01_17: 346009750
+      SB UI Pngs Size adjusted 01_170: 113069864
+      SB UI Pngs Size adjusted 01_171: -353921986
+      SB UI Pngs Size adjusted 01_172: -512226729
+      SB UI Pngs Size adjusted 01_173: 1562057817
+      SB UI Pngs Size adjusted 01_174: -120474803
+      SB UI Pngs Size adjusted 01_175: -1693430890
+      SB UI Pngs Size adjusted 01_176: 641849188
+      SB UI Pngs Size adjusted 01_177: -1103416243
+      SB UI Pngs Size adjusted 01_178: 1293158349
+      SB UI Pngs Size adjusted 01_179: -492335668
+      SB UI Pngs Size adjusted 01_18: 248644166
+      SB UI Pngs Size adjusted 01_180: 1707998555
+      SB UI Pngs Size adjusted 01_181: -1549696489
+      SB UI Pngs Size adjusted 01_182: -977243227
+      SB UI Pngs Size adjusted 01_183: 1717059804
+      SB UI Pngs Size adjusted 01_184: 1256041158
+      SB UI Pngs Size adjusted 01_185: 80694417
+      SB UI Pngs Size adjusted 01_186: -1087016928
+      SB UI Pngs Size adjusted 01_187: 1486135385
+      SB UI Pngs Size adjusted 01_188: 724425037
+      SB UI Pngs Size adjusted 01_189: -1056387400
+      SB UI Pngs Size adjusted 01_19: 678390725
+      SB UI Pngs Size adjusted 01_190: 738451759
+      SB UI Pngs Size adjusted 01_191: 24957733
+      SB UI Pngs Size adjusted 01_192: -254968308
+      SB UI Pngs Size adjusted 01_193: -1801013472
+      SB UI Pngs Size adjusted 01_194: 736194964
+      SB UI Pngs Size adjusted 01_195: -836666142
+      SB UI Pngs Size adjusted 01_196: 847995311
+      SB UI Pngs Size adjusted 01_197: 312381390
+      SB UI Pngs Size adjusted 01_198: 441256624
+      SB UI Pngs Size adjusted 01_199: 2127745049
+      SB UI Pngs Size adjusted 01_2: 863478243
+      SB UI Pngs Size adjusted 01_20: -1779630086
+      SB UI Pngs Size adjusted 01_200: 1707513558
+      SB UI Pngs Size adjusted 01_201: -1545081965
+      SB UI Pngs Size adjusted 01_202: -1031097299
+      SB UI Pngs Size adjusted 01_203: 29009362
+      SB UI Pngs Size adjusted 01_204: 972982827
+      SB UI Pngs Size adjusted 01_205: 1198780457
+      SB UI Pngs Size adjusted 01_206: -1134171520
+      SB UI Pngs Size adjusted 01_207: 946609716
+      SB UI Pngs Size adjusted 01_208: 230484766
+      SB UI Pngs Size adjusted 01_209: 213181326
+      SB UI Pngs Size adjusted 01_21: 1829897281
+      SB UI Pngs Size adjusted 01_210: 1283725884
+      SB UI Pngs Size adjusted 01_211: -370134448
+      SB UI Pngs Size adjusted 01_212: 1614377677
+      SB UI Pngs Size adjusted 01_213: 1370549856
+      SB UI Pngs Size adjusted 01_214: -736389291
+      SB UI Pngs Size adjusted 01_215: 733061679
+      SB UI Pngs Size adjusted 01_216: 917226980
+      SB UI Pngs Size adjusted 01_217: 1154507626
+      SB UI Pngs Size adjusted 01_218: -946726481
+      SB UI Pngs Size adjusted 01_219: 1282926159
+      SB UI Pngs Size adjusted 01_22: 1810407711
+      SB UI Pngs Size adjusted 01_220: 1468362004
+      SB UI Pngs Size adjusted 01_221: -554060637
+      SB UI Pngs Size adjusted 01_222: -2131148439
+      SB UI Pngs Size adjusted 01_223: -886742095
+      SB UI Pngs Size adjusted 01_224: 1067125538
+      SB UI Pngs Size adjusted 01_225: 1202060569
+      SB UI Pngs Size adjusted 01_226: -1245545791
+      SB UI Pngs Size adjusted 01_227: -1987832814
+      SB UI Pngs Size adjusted 01_228: 1198561874
+      SB UI Pngs Size adjusted 01_229: -440586394
+      SB UI Pngs Size adjusted 01_23: 958247837
+      SB UI Pngs Size adjusted 01_230: -593248556
+      SB UI Pngs Size adjusted 01_231: -678180582
+      SB UI Pngs Size adjusted 01_232: 1388072335
+      SB UI Pngs Size adjusted 01_233: 1522648815
+      SB UI Pngs Size adjusted 01_234: -1815620905
+      SB UI Pngs Size adjusted 01_235: -867080471
+      SB UI Pngs Size adjusted 01_236: 2029330789
+      SB UI Pngs Size adjusted 01_237: 1232014515
+      SB UI Pngs Size adjusted 01_238: -237311900
+      SB UI Pngs Size adjusted 01_239: -2140371455
+      SB UI Pngs Size adjusted 01_24: -450767245
+      SB UI Pngs Size adjusted 01_240: -1596625347
+      SB UI Pngs Size adjusted 01_241: 1160797883
+      SB UI Pngs Size adjusted 01_242: -221527238
+      SB UI Pngs Size adjusted 01_243: 1885901678
+      SB UI Pngs Size adjusted 01_244: -1278244182
+      SB UI Pngs Size adjusted 01_245: 1425912561
+      SB UI Pngs Size adjusted 01_246: 434425369
+      SB UI Pngs Size adjusted 01_247: 1217782768
+      SB UI Pngs Size adjusted 01_248: -286800463
+      SB UI Pngs Size adjusted 01_249: -28561543
+      SB UI Pngs Size adjusted 01_25: -1101088142
+      SB UI Pngs Size adjusted 01_250: 1598525370
+      SB UI Pngs Size adjusted 01_251: 1946862795
+      SB UI Pngs Size adjusted 01_252: 1188063229
+      SB UI Pngs Size adjusted 01_253: 666993754
+      SB UI Pngs Size adjusted 01_254: 590512575
+      SB UI Pngs Size adjusted 01_255: -1871241670
+      SB UI Pngs Size adjusted 01_256: 291025035
+      SB UI Pngs Size adjusted 01_257: 1017702547
+      SB UI Pngs Size adjusted 01_258: -247898176
+      SB UI Pngs Size adjusted 01_259: 170082057
+      SB UI Pngs Size adjusted 01_26: -1713416741
+      SB UI Pngs Size adjusted 01_260: -2049633176
+      SB UI Pngs Size adjusted 01_261: 418663074
+      SB UI Pngs Size adjusted 01_262: -1059363190
+      SB UI Pngs Size adjusted 01_263: -1998293660
+      SB UI Pngs Size adjusted 01_264: 418454096
+      SB UI Pngs Size adjusted 01_265: 594898929
+      SB UI Pngs Size adjusted 01_266: 567850426
+      SB UI Pngs Size adjusted 01_267: 1024742230
+      SB UI Pngs Size adjusted 01_268: -1127011246
+      SB UI Pngs Size adjusted 01_269: -1059528502
+      SB UI Pngs Size adjusted 01_27: -897009704
+      SB UI Pngs Size adjusted 01_270: -1991156842
+      SB UI Pngs Size adjusted 01_271: 764290792
+      SB UI Pngs Size adjusted 01_272: -578729263
+      SB UI Pngs Size adjusted 01_273: 371912696
+      SB UI Pngs Size adjusted 01_274: -1136970874
+      SB UI Pngs Size adjusted 01_275: 1050126579
+      SB UI Pngs Size adjusted 01_276: -450520860
+      SB UI Pngs Size adjusted 01_277: -971934995
+      SB UI Pngs Size adjusted 01_278: -1619694520
+      SB UI Pngs Size adjusted 01_279: -161909475
+      SB UI Pngs Size adjusted 01_28: 2058666859
+      SB UI Pngs Size adjusted 01_280: 1370118741
+      SB UI Pngs Size adjusted 01_281: -902029622
+      SB UI Pngs Size adjusted 01_282: -646386904
+      SB UI Pngs Size adjusted 01_283: 713770390
+      SB UI Pngs Size adjusted 01_284: 1448962874
+      SB UI Pngs Size adjusted 01_285: -501937463
+      SB UI Pngs Size adjusted 01_286: 260644005
+      SB UI Pngs Size adjusted 01_287: -427724920
+      SB UI Pngs Size adjusted 01_288: 1635485845
+      SB UI Pngs Size adjusted 01_289: 2027353047
+      SB UI Pngs Size adjusted 01_29: 2094117917
+      SB UI Pngs Size adjusted 01_290: -986539547
+      SB UI Pngs Size adjusted 01_291: -1444493803
+      SB UI Pngs Size adjusted 01_3: 972684927
+      SB UI Pngs Size adjusted 01_30: 1929881056
+      SB UI Pngs Size adjusted 01_31: 262054636
+      SB UI Pngs Size adjusted 01_32: -321856482
+      SB UI Pngs Size adjusted 01_33: 781782020
+      SB UI Pngs Size adjusted 01_34: -1861764615
+      SB UI Pngs Size adjusted 01_35: 618561069
+      SB UI Pngs Size adjusted 01_36: 2047377324
+      SB UI Pngs Size adjusted 01_37: 868401128
+      SB UI Pngs Size adjusted 01_38: -1299354091
+      SB UI Pngs Size adjusted 01_39: -770335526
+      SB UI Pngs Size adjusted 01_4: 2096982773
+      SB UI Pngs Size adjusted 01_40: 59442525
+      SB UI Pngs Size adjusted 01_41: -51172554
+      SB UI Pngs Size adjusted 01_42: -476087040
+      SB UI Pngs Size adjusted 01_43: -328139112
+      SB UI Pngs Size adjusted 01_44: -738689006
+      SB UI Pngs Size adjusted 01_45: -1104775746
+      SB UI Pngs Size adjusted 01_46: -1624114805
+      SB UI Pngs Size adjusted 01_47: 1349430352
+      SB UI Pngs Size adjusted 01_48: -1428135076
+      SB UI Pngs Size adjusted 01_49: -136850696
+      SB UI Pngs Size adjusted 01_5: -133794535
+      SB UI Pngs Size adjusted 01_50: 380131939
+      SB UI Pngs Size adjusted 01_51: -62241097
+      SB UI Pngs Size adjusted 01_52: -1586421168
+      SB UI Pngs Size adjusted 01_53: 1805699096
+      SB UI Pngs Size adjusted 01_54: -1759683516
+      SB UI Pngs Size adjusted 01_55: -387510323
+      SB UI Pngs Size adjusted 01_56: -1550288075
+      SB UI Pngs Size adjusted 01_57: -1714594292
+      SB UI Pngs Size adjusted 01_58: 1542569162
+      SB UI Pngs Size adjusted 01_59: 1358417898
+      SB UI Pngs Size adjusted 01_6: -2134650837
+      SB UI Pngs Size adjusted 01_60: 1270659202
+      SB UI Pngs Size adjusted 01_61: -1082216073
+      SB UI Pngs Size adjusted 01_62: -1916607045
+      SB UI Pngs Size adjusted 01_63: -667963501
+      SB UI Pngs Size adjusted 01_64: -1896364507
+      SB UI Pngs Size adjusted 01_65: 990600557
+      SB UI Pngs Size adjusted 01_66: 1000685816
+      SB UI Pngs Size adjusted 01_67: 864047573
+      SB UI Pngs Size adjusted 01_68: -2128905090
+      SB UI Pngs Size adjusted 01_69: -1772626656
+      SB UI Pngs Size adjusted 01_7: 770900986
+      SB UI Pngs Size adjusted 01_70: -657394584
+      SB UI Pngs Size adjusted 01_71: 1723658598
+      SB UI Pngs Size adjusted 01_72: -751795375
+      SB UI Pngs Size adjusted 01_73: 399032879
+      SB UI Pngs Size adjusted 01_74: 2023434485
+      SB UI Pngs Size adjusted 01_75: 941283353
+      SB UI Pngs Size adjusted 01_76: 2129324146
+      SB UI Pngs Size adjusted 01_77: -778410663
+      SB UI Pngs Size adjusted 01_78: -1997800806
+      SB UI Pngs Size adjusted 01_79: -715156046
+      SB UI Pngs Size adjusted 01_8: -2034689788
+      SB UI Pngs Size adjusted 01_80: -99661697
+      SB UI Pngs Size adjusted 01_81: 582033360
+      SB UI Pngs Size adjusted 01_82: -164216459
+      SB UI Pngs Size adjusted 01_83: 1921936357
+      SB UI Pngs Size adjusted 01_84: -124993104
+      SB UI Pngs Size adjusted 01_85: 1325394769
+      SB UI Pngs Size adjusted 01_86: -435394306
+      SB UI Pngs Size adjusted 01_87: -1036450053
+      SB UI Pngs Size adjusted 01_88: 1832173344
+      SB UI Pngs Size adjusted 01_89: 540957220
+      SB UI Pngs Size adjusted 01_9: -1385585322
+      SB UI Pngs Size adjusted 01_90: 977482600
+      SB UI Pngs Size adjusted 01_91: -1559596399
+      SB UI Pngs Size adjusted 01_92: -287843277
+      SB UI Pngs Size adjusted 01_93: 267277821
+      SB UI Pngs Size adjusted 01_94: -455065319
+      SB UI Pngs Size adjusted 01_95: 1039495683
+      SB UI Pngs Size adjusted 01_96: 834717750
+      SB UI Pngs Size adjusted 01_97: -1859922562
+      SB UI Pngs Size adjusted 01_98: -351868938
+      SB UI Pngs Size adjusted 01_99: -212301050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401824027534",
+    "project_id": "real-go-kart-racing-games",
+    "storage_bucket": "real-go-kart-racing-games.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401824027534:android:a323fd749dd735c78b0adf",
+        "android_client_info": {
+          "package_name": "com.ar.go.kart.beach.racing.games"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi0fuCNi8Y2SqR_NB2u8qQUSex69Ob0i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

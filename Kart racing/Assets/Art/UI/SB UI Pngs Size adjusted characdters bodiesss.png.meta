@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 8a2bca4a5cb739644a89e221956ec91b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 52
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1354
+        width: 619
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239f01f7b709d1408b81c67a3199106
+      internalID: -2111648135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_1
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1379
+        width: 462
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9723ef8707910740b3ad12e065fa072
+      internalID: -53959027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_2
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1401
+        width: 558
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919441fcb80117f4f9a9a52d7830ce3a
+      internalID: -1825122222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_3
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1392
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7970b729a44a3b5479af812febd3b43b
+      internalID: 924620044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_4
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1392
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7b255f13cf26643899cdfdf66f8653
+      internalID: 1954449474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1362
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680ea98dacb7644c8bb7483fc56465c
+      internalID: 897994783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1359
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d980e3097c874b84d95deabf074b36f9
+      internalID: 1464469263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 672
+        width: 493
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a307480d5ea214bba3277cce5fa816
+      internalID: 1253884167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_9
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1098
+        width: 378
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34677939ce9efe64f88cc66d4c01b816
+      internalID: -663554236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_11
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1008
+        width: 378
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc8327eaa7b52c4c906e55840d3df17
+      internalID: 2041743632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size adjusted characdters bodiesss_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 918
+        width: 375
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b347a9fa6e5241ba063b3fa0fb8b1
+      internalID: -1838089498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 04e6ee881faee99479c3e82ffc6394bd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SB UI Pngs Size adjusted characdters bodiesss_0: -2111648135
+      SB UI Pngs Size adjusted characdters bodiesss_1: -53959027
+      SB UI Pngs Size adjusted characdters bodiesss_10: -1979199898
+      SB UI Pngs Size adjusted characdters bodiesss_11: 2041743632
+      SB UI Pngs Size adjusted characdters bodiesss_12: 79769688
+      SB UI Pngs Size adjusted characdters bodiesss_13: -1377694172
+      SB UI Pngs Size adjusted characdters bodiesss_14: -907862503
+      SB UI Pngs Size adjusted characdters bodiesss_15: -1839651428
+      SB UI Pngs Size adjusted characdters bodiesss_16: 1237559020
+      SB UI Pngs Size adjusted characdters bodiesss_17: -2097785163
+      SB UI Pngs Size adjusted characdters bodiesss_18: -1838089498
+      SB UI Pngs Size adjusted characdters bodiesss_2: -1825122222
+      SB UI Pngs Size adjusted characdters bodiesss_3: 924620044
+      SB UI Pngs Size adjusted characdters bodiesss_4: 1954449474
+      SB UI Pngs Size adjusted characdters bodiesss_5: 897994783
+      SB UI Pngs Size adjusted characdters bodiesss_6: 1464469263
+      SB UI Pngs Size adjusted characdters bodiesss_7: 1253884167
+      SB UI Pngs Size adjusted characdters bodiesss_8: 1354138895
+      SB UI Pngs Size adjusted characdters bodiesss_9: -663554236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

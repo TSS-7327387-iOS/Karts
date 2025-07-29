@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bot Devil
+  m_Controller: {fileID: 9100000, guid: 6d548aa439c94d941bf388bed2fbe3ff, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 8fe1c00159dfb0742b04d9f522e64c64, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0e3ddc3dc2199a24591325b29e1854cb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e2777b5f365c32848875da9ebc4d2a53, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ba79a0ace004514e8cc5c3077f5b5be, type: 2}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5b63da69d763e474186c72ac2b435020, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 2e513283e9e2f8547a8e1432c1c59b09, type: 2}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 757bce10d4d8f44419f98bcca8f6003b, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 948b04a12ed6ab94cb555899f32188ca, type: 2}

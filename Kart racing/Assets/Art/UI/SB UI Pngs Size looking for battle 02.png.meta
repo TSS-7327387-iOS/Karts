@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 180742bc810b1e347851d540b708b8c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 52
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_0
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 815
+        width: 337
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee89093860b49743a77ee715e7e7733
+      internalID: 770494160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_1
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 611
+        width: 337
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0367734390821cb439be032071046e46
+      internalID: 921453481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_2
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 818
+        width: 337
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cce5f01e86ac54b8a613338fc24297
+      internalID: -616089817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_3
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 611
+        width: 336
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d615270bf33e15d42ac81a3be0826659
+      internalID: 2035788642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1649
+        width: 334
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aaa1d6e9c867d479e9c8a7ad38e61a
+      internalID: 725133514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_5
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 413
+        width: 334
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df97c61ba58a09a46ab271d07ddd9918
+      internalID: -828945830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 412
+        width: 334
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6413f078deb4430488bc31691a8dadf4
+      internalID: 1622939618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 272
+        width: 1100
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed026b9969398a42be99984b8d40def
+      internalID: -1889762343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 974
+        width: 632
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80be8a510eb4604392205ee4244c2ec
+      internalID: -1043618852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1569
+        width: 900
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177965a0c7723f445914ef783fe1d339
+      internalID: 1175538315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_10
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1034
+        width: 875
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d13cbb1dc8cf64293bd2fc1fd305a1
+      internalID: -757205905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 16
+        width: 1402
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aef328441ab2f4193ac277ea8962bc
+      internalID: -1692623095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 99
+        width: 1412
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045521fa7d4a32f4b86bf7ce7216a18a
+      internalID: 545420551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 184
+        width: 1412
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a975e2318183d0d4b94960cbdc9db9c6
+      internalID: -1169783992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_14
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 33
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c85e8a3d94c99d469907b86d6475ac0
+      internalID: -541621820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_15
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 115
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ae3a284dbc044fbe1ab396ef54ab2
+      internalID: -69675786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_16
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 206
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74889b6630fdbb140a0841e7be3afd31
+      internalID: 1821613651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_17
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 297
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257529aac93218f4990ec8dd80d9196c
+      internalID: -394790669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_18
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 279
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7894fff752f206648b4b430e9a14c9b7
+      internalID: -742648337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_19
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 195
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73a53eb63c532740b0858268348d361
+      internalID: -364366907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_20
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 200
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290d44164193a4448ae3b229e46fb1c4
+      internalID: -1602384584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_21
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 41
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18a27197860bec4da1eaf58c5aa82f1
+      internalID: -1857680439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_22
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 117
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b309091474dd7b94a8859acfa8cd3d92
+      internalID: 1458751392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_23
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 37
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2941ba72371ec4db6a4deb4af26432
+      internalID: 1512979116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SB UI Pngs Size looking for battle 02_24
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 118
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac9e627b49acc043a70e2ea59104ca4
+      internalID: 1783311896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e9999ab637d036349bd75d0a4b8ac56f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SB UI Pngs Size looking for battle 02_0: 770494160
+      SB UI Pngs Size looking for battle 02_1: 921453481
+      SB UI Pngs Size looking for battle 02_10: -757205905
+      SB UI Pngs Size looking for battle 02_11: -1692623095
+      SB UI Pngs Size looking for battle 02_12: 545420551
+      SB UI Pngs Size looking for battle 02_13: -1169783992
+      SB UI Pngs Size looking for battle 02_14: -541621820
+      SB UI Pngs Size looking for battle 02_15: -69675786
+      SB UI Pngs Size looking for battle 02_16: 1821613651
+      SB UI Pngs Size looking for battle 02_17: -394790669
+      SB UI Pngs Size looking for battle 02_18: -742648337
+      SB UI Pngs Size looking for battle 02_19: -364366907
+      SB UI Pngs Size looking for battle 02_2: -616089817
+      SB UI Pngs Size looking for battle 02_20: -1602384584
+      SB UI Pngs Size looking for battle 02_21: -1857680439
+      SB UI Pngs Size looking for battle 02_22: 1458751392
+      SB UI Pngs Size looking for battle 02_23: 1512979116
+      SB UI Pngs Size looking for battle 02_24: 1783311896
+      SB UI Pngs Size looking for battle 02_3: 2035788642
+      SB UI Pngs Size looking for battle 02_4: 725133514
+      SB UI Pngs Size looking for battle 02_5: -828945830
+      SB UI Pngs Size looking for battle 02_6: 1622939618
+      SB UI Pngs Size looking for battle 02_7: -1889762343
+      SB UI Pngs Size looking for battle 02_8: -1043618852
+      SB UI Pngs Size looking for battle 02_9: 1175538315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
