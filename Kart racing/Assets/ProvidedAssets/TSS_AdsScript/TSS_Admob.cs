@@ -280,12 +280,12 @@ public BannerPosition rightBannerPosition;
         Debug.Log("Initialization complete.");
         DOVirtual.DelayedCall(0.5f, () =>
         {
-            RequestAndLoadAppOpenAd();
-            RequestAndLoadInterstitialAd();
-            RequestLeftBannerAd();
-            RequestAndLoadRewardedAd();
-            RequestRightBannerAd();
-            RequestRecBannerAd();
+            // RequestAndLoadAppOpenAd();
+            // RequestAndLoadInterstitialAd();
+            // RequestLeftBannerAd();
+            // RequestAndLoadRewardedAd();
+            // RequestRightBannerAd();
+            // RequestRecBannerAd();
         });
         
         

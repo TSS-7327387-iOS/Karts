@@ -82,7 +82,7 @@ namespace PowerslideKartPhysics
                     
                     if (item.name.Contains("StaticItem Health"))
                     {
-                        Debug.LogError("Health Gain Trigger");
+                     //   Debug.LogError("Health Gain Trigger");
                         kart.resetHealth();
                     }
                     else

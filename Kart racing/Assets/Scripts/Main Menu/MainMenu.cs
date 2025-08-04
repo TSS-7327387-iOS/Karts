@@ -113,9 +113,9 @@ public class MainMenu : MonoBehaviour
         
        // currentIndex = PlayerPrefs.GetInt("SceneIndex", 0);
        
-       TssAdsManager._Instance.admobInstance.ShowLeftBanner();
-       TssAdsManager._Instance.admobInstance.ShowRightBanner();
-       TssAdsManager._Instance.admobInstance.ShowRecBanner();
+       // TssAdsManager._Instance.admobInstance.ShowLeftBanner();
+       // TssAdsManager._Instance.admobInstance.ShowRightBanner();
+       // TssAdsManager._Instance.admobInstance.ShowRecBanner();
     }
     private void OnEnable()
     {
@@ -202,7 +202,7 @@ public class MainMenu : MonoBehaviour
     
     public void Intshow()
     {
-        TssAdsManager._Instance.ShowInterstitial("Interstitial shown");
+      //  TssAdsManager._Instance.ShowInterstitial("Interstitial shown");
     }
     
     public void SaveNewName()
