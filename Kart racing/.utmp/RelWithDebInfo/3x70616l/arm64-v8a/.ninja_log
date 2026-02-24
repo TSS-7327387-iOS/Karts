@@ -1,0 +1,5 @@
+# ninja log v5
+2	121	7914779282380107	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	246472111f670adf
+122	219	7914779283373679	E:/Projects/Kart Project/Kart racing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3x70616l/obj/arm64-v8a/libswappywrapper.so	871a2993b7bac7a0
+2	449	7936510958708168	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	246472111f670adf
+449	653	7936510960751866	E:/Projects/Kart Project/Kart racing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3x70616l/obj/arm64-v8a/libswappywrapper.so	871a2993b7bac7a0

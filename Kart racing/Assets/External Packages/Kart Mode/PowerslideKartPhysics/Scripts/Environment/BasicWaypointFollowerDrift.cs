@@ -79,7 +79,7 @@ namespace PowerslideKartPhysics
                 if (rb != null && kart != null && nextPoint != null) {
                     if (kart.rotator != null) {
                         Vector3 localNextDir = kart.rotator.InverseTransformDirection((nextPoint.transform.position - targetPoint.transform.position).normalized);
-                        float driftVal = Mathf.Abs(rightDot + localNextDir.x) * Mathf.Min(rb.velocity.magnitude * driftSpeedMultiplier, driftSpeedMultiplierCap);
+                        float driftVal = Mathf.Abs(rightDot + localNextDir.x) * Mathf.Min(rb.linearVelocity.magnitude * driftSpeedMultiplier, driftSpeedMultiplierCap);
 
                         if (!drifting && driftVal > driftStartThreshold) {
                             drifting = true;

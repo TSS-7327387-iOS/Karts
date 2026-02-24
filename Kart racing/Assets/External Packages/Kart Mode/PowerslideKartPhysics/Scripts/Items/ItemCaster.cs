@@ -53,7 +53,7 @@ namespace PowerslideKartPhysics
                     props.castKart = kart;
 
                     if (kartRb != null) {
-                        props.castKartVelocity = kartRb.velocity;
+                        props.castKartVelocity = kartRb.linearVelocity;
                     }
 
                     props.castGravity = kart.currentGravityDir;

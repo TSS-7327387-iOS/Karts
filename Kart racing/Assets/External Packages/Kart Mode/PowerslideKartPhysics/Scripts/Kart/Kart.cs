@@ -600,9 +600,9 @@ namespace PowerslideKartPhysics
             }
 
             rb.AddForce(currentGravityDir * gravityAdd, ForceMode.Acceleration); // Add fake gravity
-            velMag = rb.velocity.magnitude;
+            velMag = rb.linearVelocity.magnitude;
             localVelPrev = localVel;
-            localVel = rotator.InverseTransformDirection(rb.velocity);
+            localVel = rotator.InverseTransformDirection(rb.linearVelocity);
             localAccel = localVel - localVelPrev;
             forwardDir = rotator.forward;
             upDir = rotator.up;
@@ -663,7 +663,7 @@ namespace PowerslideKartPhysics
             if (grounded || airGrounded)
             {
                 rotator.rotation = Quaternion.Lerp(rotator.rotation, Quaternion.LookRotation(Vector3.ProjectOnPlane(forwardDir, groundNormal).normalized, groundNormal),
-                    Mathf.Clamp(Vector3.Dot(rb.velocity.normalized, groundNormal) * velMag * rotationRateFactor, minRotationRate, maxRotationRate));
+                    Mathf.Clamp(Vector3.Dot(rb.linearVelocity.normalized, groundNormal) * velMag * rotationRateFactor, minRotationRate, maxRotationRate));
 
                 rotator.Rotate(groundAngVel * Mathf.Rad2Deg * Time.fixedDeltaTime, Space.World);
                 rotator.localPosition = Vector3.zero;
@@ -760,7 +760,7 @@ namespace PowerslideKartPhysics
                     // Staying parked at low speed
                     if (Mathf.Abs(targetInput) < 0.001f && velMag < autoStopSpeed && Vector3.Dot(groundNormal, currentGravityDir) > autoStopNormalDotLimit)
                     {
-                        rb.AddForce(-rb.velocity * autoStopForce, ForceMode.Acceleration);
+                        rb.AddForce(-rb.linearVelocity * autoStopForce, ForceMode.Acceleration);
                         rb.AddForce(-Vector3.ProjectOnPlane((rb.useGravity ? Physics.gravity : Vector3.zero) + currentGravityDir * gravityAdd, groundNormal), ForceMode.Acceleration); // Canceling out sliding on slopes due to gravity
                     }
                 }
@@ -945,7 +945,7 @@ namespace PowerslideKartPhysics
                     // Visual rotation while spinning out
                     visualHolder.localRotation = Quaternion.Lerp(visualHolder.localRotation, Quaternion.LookRotation(spinForward, spinUp), 20f * Time.fixedDeltaTime);
                     visualHolder.localPosition = Vector3.Lerp(visualHolder.localPosition, Vector3.zero + spinOffset, 20f * Time.fixedDeltaTime);
-                    rb.AddForce(new Vector3(-rb.velocity.x, 0.0f, -rb.velocity.z) * spinDecel, ForceMode.Acceleration); // Slow down while spinning out
+                    rb.AddForce(new Vector3(-rb.linearVelocity.x, 0.0f, -rb.linearVelocity.z) * spinDecel, ForceMode.Acceleration); // Slow down while spinning out
                 }
 
                 else
@@ -1149,7 +1149,7 @@ namespace PowerslideKartPhysics
                 if (wheelHit)
                 {
                     curWheel.grounded = true;
-                    curWheel.localVel = curWheel.transform.InverseTransformDirection(rb.velocity);
+                    curWheel.localVel = curWheel.transform.InverseTransformDirection(rb.linearVelocity);
                     curWheel.contactPoint = hit.point;
                     curWheel.contactNormal = hit.normal;
                     curWheel.contactTr = hit.transform;
@@ -1764,7 +1764,7 @@ namespace PowerslideKartPhysics
                     // Wall friction application
                     if (grounded && !spinningOut)
                     {
-                        rb.AddForce(-new Vector3(rb.velocity.x, 0.0f, rb.velocity.z) * wallFriction, ForceMode.Acceleration);
+                        rb.AddForce(-new Vector3(rb.linearVelocity.x, 0.0f, rb.linearVelocity.z) * wallFriction, ForceMode.Acceleration);
                     }
                 }
             }

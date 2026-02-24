@@ -106,7 +106,7 @@ public class LapCounter : MonoBehaviour
     {
         kart.maxSpeed = 0f;
         kart.active = false;
-        rb.drag = 2f;
+        rb.linearDamping = 2f;
     }
 
     public void PassMidpoint( Collider other)

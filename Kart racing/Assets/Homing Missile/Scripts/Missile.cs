@@ -124,7 +124,7 @@ namespace Tarodev
         private void PredictMovement(float leadTimePercentage)
         {
             float predictionTime = Mathf.Lerp(0, _maxTimePrediction, leadTimePercentage);
-            _standardPrediction = _target.Rb.position + _target.Rb.velocity * predictionTime;
+            _standardPrediction = _target.Rb.position + _target.Rb.linearVelocity * predictionTime;
         }
 
         private void AddDeviation(float leadTimePercentage)
@@ -149,7 +149,7 @@ namespace Tarodev
         {
             // Use force for a more natural missile push
             Vector3 force = transform.forward * _speed;
-            _rb.velocity = force; // You can use AddForce(force, ForceMode.Acceleration) for more physics-based feel
+            _rb.linearVelocity = force; // You can use AddForce(force, ForceMode.Acceleration) for more physics-based feel
         }
         [Header("Spin")]
         public Kart.SpinAxis kartSpin = Kart.SpinAxis.Yaw;

@@ -1,34 +1,38 @@
 apply plugin: 'com.android.library'
+apply from: '../shared/keepUnitySymbols.gradle'
 **APPLY_PLUGINS**
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:12
-    implementation 'com.applovin.mediation:google-adapter:[24.4.0.0]' // Assets/MaxSdk/Mediation/Google/Editor/Dependencies.xml:5
-    implementation 'com.applovin.mediation:google-ad-manager-adapter:[24.4.0.0]' // Assets/MaxSdk/Mediation/GoogleAdManager/Editor/Dependencies.xml:5
+    implementation 'androidx.lifecycle:lifecycle-process:2.6.2' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:17
+    implementation 'com.applovin.mediation:google-adapter:[24.9.0.0]' // Assets/MaxSdk/Mediation/Google/Editor/Dependencies.xml:5
+    implementation 'com.applovin.mediation:google-ad-manager-adapter:[24.9.0.0]' // Assets/MaxSdk/Mediation/GoogleAdManager/Editor/Dependencies.xml:5
     implementation 'com.applovin:applovin-sdk:13.3.1' // Assets/MaxSdk/AppLovin/Editor/Dependencies.xml:4
-    implementation 'com.google.android.gms:play-services-ads:24.1.0' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:7
+    implementation 'com.google.android.gms:play-services-ads:24.9.0' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:7
     implementation 'com.google.android.gms:play-services-appset:16.0.2' // Assets/GameAnalytics/Editor/Android/Dependencies.xml:4
-    implementation 'com.google.android.gms:play-services-base:18.5.0' // Assets/Firebase/Editor/AppDependencies.xml:17
+    implementation 'com.google.android.gms:play-services-base:18.10.0' // Assets/Firebase/Editor/AppDependencies.xml:20
     implementation 'com.google.android.instantapps:instantapps:1.1.0' // Assets/GameAnalytics/Editor/Android/Dependencies.xml:3
     // implementation 'com.google.android.ump:user-messaging-platform:2.1.0' // Assets/MaxSdk/AppLovin/Editor/Dependencies.xml:5
-    implementation 'com.google.android.ump:user-messaging-platform:3.1.0' // Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml:7
-    implementation 'com.google.firebase:firebase-analytics:22.1.2' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:15
-    implementation 'com.google.firebase:firebase-analytics-unity:12.5.0' // Assets/Firebase/Editor/AnalyticsDependencies.xml:18
-    implementation 'com.google.firebase:firebase-app-unity:12.5.0' // Assets/Firebase/Editor/AppDependencies.xml:22
-    implementation 'com.google.firebase:firebase-common:21.0.0' // Assets/Firebase/Editor/AppDependencies.xml:13
-    implementation 'com.google.firebase:firebase-config:22.0.1' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:13
-    implementation 'com.google.firebase:firebase-config-unity:12.5.0' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:20
-    implementation 'com.google.firebase:firebase-crashlytics-ndk:19.3.0' // Assets/Firebase/Editor/CrashlyticsDependencies.xml:13
-    implementation 'com.google.firebase:firebase-crashlytics-unity:12.5.0' // Assets/Firebase/Editor/CrashlyticsDependencies.xml:20
+    implementation 'com.google.android.ump:user-messaging-platform:3.2.0' // Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml:7
+    implementation 'com.google.firebase:firebase-analytics:23.0.0' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:18
+    implementation 'com.google.firebase:firebase-analytics-unity:13.8.0' // Assets/Firebase/Editor/AnalyticsDependencies.xml:21
+    implementation 'com.google.firebase:firebase-app-unity:13.8.0' // Assets/Firebase/Editor/AppDependencies.xml:25
+    implementation 'com.google.firebase:firebase-common:22.0.1' // Assets/Firebase/Editor/AppDependencies.xml:16
+    implementation 'com.google.firebase:firebase-config:23.0.1' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:16
+    implementation 'com.google.firebase:firebase-config-unity:13.8.0' // Assets/Firebase/Editor/RemoteConfigDependencies.xml:23
+    implementation 'com.google.firebase:firebase-crashlytics-ndk:20.0.4' // Assets/Firebase/Editor/CrashlyticsDependencies.xml:16
+    implementation 'com.google.firebase:firebase-crashlytics-unity:13.8.0' // Assets/Firebase/Editor/CrashlyticsDependencies.xml:23
 // Android Resolver Dependencies End
 **DEPS**}
 
 // Android Resolver Exclusions Start
 android {
-  packagingOptions {
+    ndkVersion "**NDKVERSION**"
+  packaging {
       exclude ('/lib/armeabi/*' + '*')
+      exclude ('/lib/armeabi-v7a/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')
       exclude ('/lib/x86/*' + '*')
@@ -39,7 +43,7 @@ android {
 android {
     namespace "com.unity3d.player"
     ndkPath "**NDKPATH**"
-    compileSdkVersion **APIVERSION**
+    compileSdk **APIVERSION**
     buildToolsVersion '**BUILDTOOLS**'
 
     compileOptions {
@@ -48,9 +52,11 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion **MINSDKVERSION**
-        targetSdkVersion **TARGETSDKVERSION**
+**DEFAULT_CONFIG_SETUP**
+        minSdk **MINSDK**
+        targetSdk **TARGETSDK**
         ndk {
+            debugSymbolLevel **DEBUGSYMBOLLEVEL**
             abiFilters **ABIFILTERS**
         }
         versionCode **VERSIONCODE**
@@ -58,14 +64,14 @@ android {
         consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
     }
 
-    lintOptions {
+    lint {
         abortOnError false
     }
 
-    aaptOptions {
+    androidResources {
         noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
-    }**PACKAGING_OPTIONS**
+    }**PACKAGING**
 }
 **IL_CPP_BUILD_SETUP**
 **SOURCE_BUILD_SETUP**

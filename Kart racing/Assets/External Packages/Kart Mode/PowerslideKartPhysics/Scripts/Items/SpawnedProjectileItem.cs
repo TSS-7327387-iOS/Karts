@@ -98,11 +98,11 @@ namespace PowerslideKartPhysics
             // Match casting kart speed
             if (inheritKartSpeed)
             {
-                rb.velocity = props.castKartVelocity + moveDir * (props.castSpeed + startSpeed);
+                rb.linearVelocity = props.castKartVelocity + moveDir * (props.castSpeed + startSpeed);
             }
             else
             {
-                rb.velocity = moveDir * (props.castSpeed + startSpeed);
+                rb.linearVelocity = moveDir * (props.castSpeed + startSpeed);
             }
 
             if (inheritKartGravity)
@@ -216,7 +216,7 @@ namespace PowerslideKartPhysics
             }
 
             // Limit falling speed
-            float velGravDot = -Vector3.Dot(rb.velocity, currentGravityDir);
+            float velGravDot = -Vector3.Dot(rb.linearVelocity, currentGravityDir);
             if (!grounded && velGravDot > maxFallSpeed)
             {
                 rb.AddForce(currentGravityDir * (velGravDot - maxFallSpeed) * fallSpeedDecel, ForceMode.Acceleration);
@@ -242,7 +242,7 @@ namespace PowerslideKartPhysics
             Quaternion moveRot = Quaternion.LookRotation(moveDir, currentGravityDir);
             Vector3 forwardDir = moveRot * Vector3.forward;
             Vector3 rightDir = moveRot * Vector3.right;
-            Vector3 localVel = Vector3.forward * Vector3.Dot(forwardDir, rb.velocity) + Vector3.right * Vector3.Dot(rightDir, rb.velocity);
+            Vector3 localVel = Vector3.forward * Vector3.Dot(forwardDir, rb.linearVelocity) + Vector3.right * Vector3.Dot(rightDir, rb.linearVelocity);
             Debug.DrawRay(tr.position, forwardDir * localVel.z, Color.blue);
             Debug.DrawRay(tr.position, rightDir * localVel.x, Color.red);
 
@@ -301,7 +301,7 @@ namespace PowerslideKartPhysics
                     if ((wallBounceReflect && wallHit) || (itemBounceReflect && itemHit))
                     {
                         moveDir = Vector3.ProjectOnPlane(Vector3.Reflect(moveDir, curCol.normal), currentGravityDir).normalized;
-                        rb.velocity = Vector3.Reflect(rb.velocity, curCol.normal) * bounceReflectForce;
+                        rb.linearVelocity = Vector3.Reflect(rb.linearVelocity, curCol.normal) * bounceReflectForce;
                         targetSpeed *= bounceReflectForce;
 
                         bounces++;

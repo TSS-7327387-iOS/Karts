@@ -48,7 +48,7 @@ namespace Exploder.Demo
 
                 Grenade.transform.position = gameObject.transform.position;
 
-                Grenade.GetComponent<Rigidbody>().velocity = MainCamera.transform.forward*20;
+                Grenade.GetComponent<Rigidbody>().linearVelocity = MainCamera.transform.forward*20;
             }
 
             explodeTimer -= Time.deltaTime;

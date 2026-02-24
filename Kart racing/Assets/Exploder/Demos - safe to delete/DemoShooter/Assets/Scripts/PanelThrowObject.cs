@@ -41,7 +41,7 @@ namespace Exploder.Demo
             v0.z = Random.Range(-0.2f, 0.2f);
             v0.Normalize();
 
-            instance.GetComponent<Rigidbody>().velocity = v0*20;
+            instance.GetComponent<Rigidbody>().linearVelocity = v0*20;
             instance.GetComponent<Rigidbody>().angularVelocity = Random.insideUnitSphere*3;
 
             instance.GetComponent<Rigidbody>().mass = 20;
