@@ -7,7 +7,8 @@ using UnityEngine;
 namespace Tarodev
 {
     public class Missile : MonoBehaviour
-    { [Header("REFERENCES")]
+    {
+        [Header("REFERENCES")]
         [SerializeField] private Rigidbody _rb;
         [SerializeField] private Target _target;
         [SerializeField] private GameObject _explosionPrefab;
@@ -25,11 +26,6 @@ namespace Tarodev
         [Header("DEVIATION")]
         [SerializeField] private float _deviationAmount = 50;
         [SerializeField] private float _deviationSpeed = 2;
-        private bool _hasLockedTarget = false;
-        
-        [Header("Shader Change On Hit")]
-        [SerializeField] private Shader hitShader;
-        
 
         private void Awake()
         {
@@ -38,87 +34,119 @@ namespace Tarodev
         private void Start()
         {
 
-           //AssignNearestTarget();
-           if (!_hasLockedTarget)
-           {
-               AssignNearestTarget();
-           }
+            AssignNearestTarget();
+           
         }
 
 
         private void AssignNearestTarget()
-        { GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            Target bestTarget = null;
+        {
 
+
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            Target nearestTarget = null;
             float shortestDistance = Mathf.Infinity;
-            float maxLockDistance = 50f;     // realistic lock distance
-            float maxLockAngle = 90f;        // realistic front angle (wider than before)
-
+            Vector3 currentPosition = transform.position;
             foreach (GameObject enemy in enemies)
             {
                 Kart kart = enemy.GetComponent<Kart>();
-                if (kart != null && !kart.isExploded)
+                if (kart != null && kart.isExploded == false) // Check if the kart is not exploded
                 {
                     Target target = kart.GetComponentInParent<Target>();
                     if (target != null)
                     {
-                        Vector3 toTarget = target.transform.position - transform.position;
-                        float distance = toTarget.magnitude;
-
-                        if (distance > maxLockDistance) continue; // skip too far targets
-
-                        float angle = Vector3.Angle(transform.forward, toTarget.normalized);
-
-                        if (angle <= maxLockAngle)
+                        float distance = Vector3.Distance(currentPosition, target.transform.position);
+                        if (distance < shortestDistance)
                         {
-                            if (distance < shortestDistance)
-                            {
-                                shortestDistance = distance;
-                                bestTarget = target;
-                            }
+                            shortestDistance = distance;
+                            nearestTarget = target;
                         }
                     }
                 }
             }
-
-            if (bestTarget != null)
+           /* foreach (GameObject enemy in enemies)
             {
-                _target = bestTarget;
-                _hasLockedTarget = true;
-            }
 
+                Target target = enemy.GetComponentInChildren<Target>();
+                if (target != null)
+                {
+                    float distance = Vector3.Distance(currentPosition, target.transform.position);
+                    if (distance < shortestDistance)
+                    {
+                        shortestDistance = distance;
+                        nearestTarget = target;
+                    }
+                }
+            }*/
+
+            if (nearestTarget != null)
+            {
+                _target = nearestTarget;
+            }
         }
+        /*     private void AssignNearestTarget()
+             {
+                 GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+                 Target nearestTarget = null;
+                 float shortestDistance = Mathf.Infinity;
+                 Vector3 currentPosition = transform.position;
+
+                 int playerCurrentID = MyGameManager.instance.playerLapCounter.curntID; // Get the player's waypoint ID
+
+                 foreach (GameObject enemy in enemies)
+                 {
+                     Kart kart = enemy.GetComponent<Kart>();
+                     if (kart != null && kart.isExploded==false) // Check if the kart is not exploded
+                     {
+                         int enemyCurrentID = MyGameManager.instance.enemiesLapCounter
+                             .FirstOrDefault(e => e.gameObject == enemy)?.curntID ?? -1;
+
+                         if (enemyCurrentID > playerCurrentID) // Only target enemies ahead of the player
+                         {
+                             Target target = enemy.GetComponentInChildren<Target>();
+                             if (target != null)
+                             {
+                                 float distance = Vector3.Distance(currentPosition, target.transform.position);
+                                 if (distance < shortestDistance)
+                                 {
+                                     shortestDistance = distance;
+                                     nearestTarget = target;
+                                 }
+                             }
+                         }
+                     }
+                 }
+
+                 if (nearestTarget != null)
+                 {
+                     _target = nearestTarget;
+                 }
+             }
+     */
 
 
 
         private void FixedUpdate()
         {
-            if (_target == null && !_hasLockedTarget)
+            //if (_target == null) return;
+            if (_target == null)
             {
-                AssignNearestTarget();
+                AssignNearestTarget(); // Immediately re-assign if the target is lost
+                return;
             }
 
-            Vector3 targetDirection;
+            _rb.linearVelocity = transform.forward * _speed;
 
-            if (_target != null)
-            {
-                float leadTimePercentage = Mathf.InverseLerp(
-                    _minDistancePredict,
-                    _maxDistancePredict,
-                    Vector3.Distance(transform.position, _target.transform.position));
+            float leadTimePercentage = Mathf.InverseLerp(
+                _minDistancePredict,
+                _maxDistancePredict,
+                Vector3.Distance(transform.position, _target.transform.position));
 
-                PredictMovement(leadTimePercentage);
-                AddDeviation(leadTimePercentage);
-                targetDirection = (_deviatedPrediction - transform.position).normalized;
-            }
-            else
-            {
-                // No target: go straight
-                targetDirection = transform.forward;
-            }
-
-            RotateRocket(targetDirection);
-            ApplyForwardThrust();
+            PredictMovement(leadTimePercentage);
+            AddDeviation(leadTimePercentage);
+            RotateRocket();
         }
 
         private void PredictMovement(float leadTimePercentage)
@@ -134,22 +162,11 @@ namespace Tarodev
             _deviatedPrediction = _standardPrediction + predictionOffset;
         }
 
-      
-        private void RotateRocket(Vector3 targetDirection)
+        private void RotateRocket()
         {
-            // Calculate the rotation needed to face the target direction
-            Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-
-            // Smoothly rotate toward the target
-            Quaternion newRotation = Quaternion.RotateTowards(transform.rotation, targetRotation, _rotateSpeed * Time.fixedDeltaTime);
-            _rb.MoveRotation(newRotation);
-        }
-
-        private void ApplyForwardThrust()
-        {
-            // Use force for a more natural missile push
-            Vector3 force = transform.forward * _speed;
-            _rb.linearVelocity = force; // You can use AddForce(force, ForceMode.Acceleration) for more physics-based feel
+            Vector3 heading = _deviatedPrediction - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(heading);
+            _rb.MoveRotation(Quaternion.RotateTowards(transform.rotation, rotation, _rotateSpeed * Time.deltaTime));
         }
         [Header("Spin")]
         public Kart.SpinAxis kartSpin = Kart.SpinAxis.Yaw;
@@ -165,71 +182,42 @@ namespace Tarodev
         private void OnCollisionEnter(Collision collision)
         {
            
+
+           // if (_explosionPrefab) Instantiate(_explosionPrefab, transform.position, Quaternion.identity);
+
             Kart hitKart = collision.gameObject.transform.GetTopmostParentComponent<Kart>();
 
-            if (hitKart != null && hitKart != _firingKart)
+            if (hitKart != null && hitKart != _firingKart) // Ensure it's not the launching kart
             {
                 if (!hitKart.isShieldActivated)
-                {
-                    Debug.Log("Missile collided with " + collision.gameObject.name);
+                { Debug.Log("Missile collided with " + collision.gameObject.name);
                     hitKart.SpinOut(kartSpin, kartSpinCount);
-
-                    if (hitKart.damageParticlesAll != null)
+                    if(hitKart.damageParticlesAll != null)//Decrease health bar in player UI
                     {
                         hitKart.takeDamage_HealthSlider(0.2f);
-                        hitKart.ApplyTemporaryHitShader(hitShader, 3f);
                     }
-
-                    // if (hitShader != null)
-                    // {
-                    //     // StartCoroutine(ChangeKartShaderTemporarily(hitKart, 3f));
-                    //     hitKart.ApplyTemporaryHitShader(hitShader, 3f);
-                    // }
                 }
-
                 if (AudioManagerNew.instance != null)
                 {
                     AudioManagerNew.instance.PlaySound("Missile");
                 }
-
-                if (_explosionPrefab) Instantiate(_explosionPrefab, transform.position, Quaternion.identity);
-                Destroy(gameObject);
-            }
-            else
-            {
-                // Hit wall or other object
                 if (_explosionPrefab) Instantiate(_explosionPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }
 
-        private IEnumerator ChangeKartShaderTemporarily(Kart kart, float duration)
-        {
-            
-            Renderer[] renderers = kart.GetComponentsInChildren<Renderer>();
-
-            // Store original materials
-            Material[] originalMaterials = new Material[renderers.Length];
-
-            for (int i = 0; i < renderers.Length; i++)
-            {
-                // Duplicate original material to store
-                originalMaterials[i] = new Material(renderers[i].material);
-
-                // Create a temporary material with the hit shader
-                Material tempMat = new Material(renderers[i].material);
-                tempMat.shader = hitShader;
-                renderers[i].material = tempMat;
-            }
-
-            yield return new WaitForSeconds(duration);
-
-            // Restore original materials
-            for (int i = 0; i < renderers.Length; i++)
-            {
-                renderers[i].material = originalMaterials[i];
-            }
-        }
+        /* private void OnCollisionEnter(Collision collision)
+         {
+             Debug.Log("missile collision enter" + collision.gameObject.name);
+             if (_explosionPrefab) Instantiate(_explosionPrefab, transform.position, Quaternion.identity);
+             if (!collision.gameObject.transform.GetTopmostParentComponent<Kart>().isShieldActivated)
+             {
+                 collision.gameObject.transform.GetTopmostParentComponent<Kart>().SpinOut(kartSpin, kartSpinCount);
+                 Destroy(gameObject);
+             }
+             //  if (collision.transform.TryGetComponent<IExplode>(out var ex)) ex.Explode();
+             // Destroy(gameObject);
+         }*/
 
         private void OnDrawGizmos()
         {
@@ -249,8 +237,6 @@ namespace Tarodev
             Destroy(gameObject);
         }
     }
-    
-    
 }
 
 

@@ -9,10 +9,11 @@ using MoreMountains.NiceVibrations;
 using Random = UnityEngine.Random;
 
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class MainMenu : MonoBehaviour
 {
-    public SmoothLoading loading;
+    //public SmoothLoading loading;
     public GameObject mainMenu,playerProfile,matchPlayerScreen;
     public Button playBtn;
     public GameObject journeyNotification,journeyHand;
@@ -87,7 +88,8 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-        Sound.SetActive(AudioHandler.Instance.soundT.isOn);
+        if(Sound)
+            Sound.SetActive(AudioHandler.Instance.soundT.isOn);
         
         if (!PlayerPrefs.HasKey("PlayerRank"))
         {
@@ -399,7 +401,17 @@ public class MainMenu : MonoBehaviour
     {
        modeSelectionPanel.SetActive(true);
     }
-
+    public void LoadGamePlayKarts()
+    {
+        CanvasScriptSplash.instance.LoadScene(1);
+    }
+    public void LoadGamePlaySquad()
+    {
+        DOVirtual.DelayedCall(1, () => {
+            int indexScene = Random.Range(2, 5);
+            CanvasScriptSplash.instance.LoadScene(indexScene);
+        });
+    }
     public void envShow()
     {
        // StartSetRandomSceneAndImage();
@@ -483,7 +495,8 @@ public class MainMenu : MonoBehaviour
 
     public void PopupShow()
     {
-        ModeOffPopup.SetActive(true);
+        SceneManager.LoadScene(7);
+        //ModeOffPopup.SetActive(true);
     }
     public void PopupClose()
     {

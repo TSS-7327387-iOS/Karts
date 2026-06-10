@@ -1,0 +1,5 @@
+D:/Github/Karts/Kart racing/.utmp/RelWithDebInfo/3g1p2x46/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Github/Karts/Kart racing/.utmp/RelWithDebInfo/3g1p2x46/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Github/Karts/Kart racing/.utmp/RelWithDebInfo/3g1p2x46/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Github/Karts/Kart racing/.utmp/RelWithDebInfo/3g1p2x46/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Github/Karts/Kart racing/.utmp/RelWithDebInfo/3g1p2x46/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
