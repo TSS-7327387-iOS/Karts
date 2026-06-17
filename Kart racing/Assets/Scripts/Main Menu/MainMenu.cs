@@ -108,7 +108,7 @@ public class MainMenu : MonoBehaviour
         // PlayerPrefs.SetInt("Coin", 500000);
         
         string savedName = PlayerPrefs.GetString("PlayerName", "Player");
-        savedNameDisplay.text =  savedName;
+        if(savedNameDisplay) savedNameDisplay.text =  savedName;
         InitLapCounts();
         
       //  coinsText.text = CurrencyManager.instance.GetSavedCoins().ToString();

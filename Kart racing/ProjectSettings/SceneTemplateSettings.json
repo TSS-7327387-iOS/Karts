@@ -114,7 +114,7 @@
         {
             "userAdded": false,
             "type": "UnityEngine.Timeline.TimelineAsset",
-            "defaultInstantiationMode": 0
+            "defaultInstantiationMode": 1
         }
     ],
     "defaultDependencyTypeInfo": {
